@@ -1,0 +1,27 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: rgba(15, 17, 21, 0.9);
+  border-bottom: 1px solid #23262e;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #6ea8fe;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+.nav-links a:hover {
+  color: #6ea8fe;
+}
+
