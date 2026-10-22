@@ -9,7 +9,7 @@
 }
 
 .hero-greeting {
-  color: #6ea8fe;
+  color: var(--accent);
   font-size: 1.1rem;
 }
 
@@ -20,13 +20,13 @@
 
 .hero-title {
   font-size: clamp(1.2rem, 4vw, 2rem);
-  color: #9aa0ad;
+  color: var(--muted);
   margin-bottom: 1rem;
 }
 
 .hero-text {
   max-width: 560px;
-  color: #9aa0ad;
+  color: var(--muted);
   margin-bottom: 2rem;
 }
 
@@ -48,11 +48,31 @@
 }
 
 .btn-primary {
-  background: #6ea8fe;
-  color: #0f1115;
+  background: var(--accent);
+  color: var(--accent-contrast);
 }
 
 .btn-outline {
-  border: 1px solid #6ea8fe;
-  color: #6ea8fe;
+  border: 1px solid var(--accent);
+  color: var(--accent);
 }
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero > * {
+  animation: fadeUp 0.7s ease both;
+}
+
+.hero-greeting { animation-delay: 0.1s; }
+.hero-name { animation-delay: 0.25s; }
+.hero-text { animation-delay: 0.5s; }
+.hero-buttons { animation-delay: 0.65s; }

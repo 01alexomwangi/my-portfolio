@@ -11,8 +11,8 @@
 }
 
 .skill-card {
-  background: #171a21;
-  border: 1px solid #23262e;
+  background: var(--surface);
+  border: 1px solid var(--border);
   border-radius: 12px;
   padding: 1.5rem;
   transition: transform 0.2s, border-color 0.2s;
@@ -20,11 +20,11 @@
 
 .skill-card:hover {
   transform: translateY(-4px);
-  border-color: #6ea8fe;
+  border-color: var(--accent);
 }
 
 .skill-card h3 {
-  color: #6ea8fe;
+  color: var(--accent);
   margin-bottom: 1rem;
 }
 
@@ -36,10 +36,10 @@
 }
 
 .skill-card li {
-  background: #0f1115;
-  border: 1px solid #23262e;
+  background: var(--bg);
+  border: 1px solid var(--border);
   border-radius: 999px;
   padding: 0.25rem 0.85rem;
   font-size: 0.9rem;
-  color: #9aa0ad;
+  color: var(--muted);
 }

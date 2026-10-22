@@ -13,8 +13,8 @@
 .project-card {
   display: flex;
   flex-direction: column;
-  background: #171a21;
-  border: 1px solid #23262e;
+  background: var(--surface);
+  border: 1px solid var(--border);
   border-radius: 12px;
   padding: 1.5rem;
   transition: transform 0.2s, border-color 0.2s;
@@ -22,7 +22,7 @@
 
 .project-card:hover {
   transform: translateY(-4px);
-  border-color: #6ea8fe;
+  border-color: var(--accent);
 }
 
 .project-card h3 {
@@ -30,7 +30,7 @@
 }
 
 .project-card p {
-  color: #9aa0ad;
+  color: var(--muted);
   margin-bottom: 1rem;
   flex-grow: 1;
 }
@@ -45,7 +45,7 @@
 
 .project-tech li {
   font-size: 0.8rem;
-  color: #6ea8fe;
+  color: var(--accent);
 }
 
 .project-links {
@@ -55,7 +55,7 @@
 
 .project-links a {
   font-weight: 600;
-  color: #6ea8fe;
+  color: var(--accent);
 }
 
 .project-links a:hover {

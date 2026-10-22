@@ -12,8 +12,8 @@ function About() {
             something new with every project I build.
           </p>
           <p>
-            Replace this paragraph with your own story: what got you into
-            coding, what you enjoy building, and what you want to do next.
+           I enjoy building websites and software that solve real-life problems. 
+           I'm always learning new skills and improving my programming abilities, and my goal is to become a skilled software developer.
           </p>
         </div>
         <ul className="about-facts">
