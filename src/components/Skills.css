@@ -36,10 +36,18 @@
 }
 
 .skill-card li {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
   background: var(--bg);
   border: 1px solid var(--border);
   border-radius: 999px;
-  padding: 0.25rem 0.85rem;
+  padding: 0.3rem 0.85rem;
   font-size: 0.9rem;
   color: var(--muted);
+}
+
+.skill-icon {
+  font-size: 1.1rem;
+  color: var(--accent);
 }

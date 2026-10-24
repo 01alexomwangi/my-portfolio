@@ -3,7 +3,9 @@ import './Contact.css'
 const contactLinks = [
   { label: 'Email', value: '01alexomwangi@gmail.com', href: 'mailto:your.01alexomwangi@gmail.com' },
   { label: 'GitHub', value: 'https://github.com/01alexomwangi', href: 'https://github.com/01alexomwangi' },
-  { label: 'LinkedIn', value: 'linkedin.com/in/your-username', href: 'https://linkedin.com/in/your-username' },
+  { label: 'LinkedIn', value: 'Updating Soon', href: 'Updating soon' },
+  { label: 'Whatsapp', value: 'M_Aleko_K' },
+  { label: 'Phone Number', value: '+254745504343', },
 ]
 
 function Contact() {
@@ -29,7 +31,7 @@ function Contact() {
         ))}
       </div>
       <footer className="footer">
-        © {new Date().getFullYear()} Alex Mwangi. Built with React.
+        © {new Date().getFullYear()} Alex Mwangi. Built By MK.
       </footer>
     </section>
   )

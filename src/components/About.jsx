@@ -19,7 +19,7 @@ function About() {
         <ul className="about-facts">
           <li><span>Studying</span> Computer Science</li>
           <li><span>School</span> Kiambu National Polytechnic</li>
-          <li><span>Focus</span> Web development & databases</li>
+          <li><span>Focus</span> Software development & databases</li>
           <li><span>Location</span> Kenya</li>
         </ul>
       </div>
