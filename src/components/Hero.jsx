@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import './Hero.css'
+import { FaDownload } from 'react-icons/fa'
 
 const roles = [
   'Computer Science Student',
@@ -31,7 +32,10 @@ function Hero() {
         <div className="hero-buttons">
           <a href="#projects" className="btn btn-primary">View my work</a>
           <a href="#contact" className="btn btn-outline">Contact me</a>
-        </div>
+          <a href="/Alex-Mwangi-Resume.pdf" className="btn btn-ghost" download>
+          <FaDownload /> Download CV
+        </a>
+</div>
       </div>
       <div className="hero-photo">
         <img src="/profile.jpeg" alt="Alex Mwangi" />

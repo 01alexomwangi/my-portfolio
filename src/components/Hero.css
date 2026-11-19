@@ -108,3 +108,14 @@
     width: 150px;
   }
 }
+
+.btn-ghost {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--muted);
+}
+
+.btn-ghost:hover {
+  color: var(--accent);
+}
